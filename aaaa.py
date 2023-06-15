@@ -1,20 +1,18 @@
 import pandas as pd
+import numpy as np
+import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import StackingRegressor
 from sklearn.linear_model import Ridge
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.dummy import DummyRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVR
-import numpy as np
-import streamlit as st
 
 # Sidebar controls
 st.sidebar.header("Configuration")
