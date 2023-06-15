@@ -1,9 +1,3 @@
-!pip install scikit-learn==0.24.2
-!pip install pandas==1.3.0
-!pip install scikit-learn==0.24.2
-!pip install numpy==1.21.0
-!pip install streamlit==0.84.0
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
